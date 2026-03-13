@@ -1,0 +1,15 @@
+[project]
+name = "course-info-retrieval-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncache>=0.3.1",
+    "bm25s>=0.3.2",
+    "fastapi>=0.135.1",
+    "numpy>=2.4.2",
+    "scikit-learn>=1.8.0",
+    "sentence-transformers>=5.2.3",
+    "uvicorn>=0.41.0",
+]
